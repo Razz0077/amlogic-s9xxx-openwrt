@@ -12,19 +12,19 @@ inputs:
     default: "openwrt/bin/targets/*/*/*rootfs.tar.gz"
   openwrt_soc:
     description: "Choose Amlogic SoC."
-    required: false
-    default: "s905d_s905x3"
+    required: true
+    default: "s905x"
   openwrt_kernel:
     description: "Choose kernel version."
-    required: false
-    default: "5.10.125_5.15.50"
+    required: true
+    default: "5.4.205"
   auto_kernel:
     description: "Auto use the latest kernel."
     required: false
     default: "true"
   version_branch:
     description: "Choose version branch."
-    required: false
+    required: true
     default: "stable"
   openwrt_size:
     description: "Set the rootfs size(Unit: MiB)."
