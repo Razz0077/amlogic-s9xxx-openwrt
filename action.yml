@@ -20,7 +20,7 @@ inputs:
     default: "5.4.205"
   auto_kernel:
     description: "Auto use the latest kernel."
-    required: false
+    required: true
     default: "true"
   version_branch:
     description: "Choose version branch."
